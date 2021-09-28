@@ -9,4 +9,7 @@
 //= require bootstrap
 //= require popper.min
 //= require user-portal
+//= require portal.init
+//= require user.message.box
+//= require jquery-confirm.min
 //= require_self
