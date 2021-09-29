@@ -12,6 +12,7 @@
 *= require jquery-confirm.min
 *= require font-awesome/css/all.min
 *= require_self
+*= require login
 
 
 */

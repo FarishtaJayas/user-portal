@@ -22,7 +22,7 @@
 
 <div class="form-group">
     <label><g:message code="phone"/> *</label>
-    <g:textField name="phoneNumber" class="form-control" value="${member?.phoneNumber}" placeholder="W"/>
+    <g:textField name="phoneNumber" class="form-control" value="${member?.phoneNumber}" placeholder=""/>
 </div>
 
 <div class="form-group">

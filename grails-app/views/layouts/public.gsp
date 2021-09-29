@@ -22,28 +22,19 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-info rounded">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark rounded">
         <a class="navbar-brand" href="#">User Portal</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
                 aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="navbar-nav ml-auto">
-            <UIHelper:memberActionMenu/>
-        </ul>
     </nav>
 </header>
 <div class="container-fluid">
     <div class="row">
-        <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
-            <ul class="list-group">
-                <li class="list-group-item"><a href="#">Dashboard</a></li>
-                <li class="list-group-item"><a href="#">Contact</a></li>
-                <li class="list-group-item"><a href="#">Contact Group</a></li>
-            </ul>
-        </nav>
-        <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
+
+        <main role="main" class="col-sm-12 ml-sm-auto col-md-12 pt-3">
             <g:layoutBody/>
         </main>
     </div>
