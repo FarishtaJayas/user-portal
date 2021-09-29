@@ -9,6 +9,7 @@ class Member {
     String lastName
     String email
     String phoneNumber
+    String homeAddress
     String birthDate
     String password
     String memberType = GlobalConfig.USER_TYPE.REGULAR_MEMBER

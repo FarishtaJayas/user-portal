@@ -9,8 +9,8 @@
 <meta name="layout" content="main"/>
 
 <div class="card">
-    <div class="card-header">
-        <g:message code="member" args="['List ']"/>
+    <div class="card-header" style="font-size: 30px">
+        <g:message code="member" args="['List']"/>
 
         %{--Actions--}%
         <span class="float-right">
@@ -19,11 +19,11 @@
             <div class="btn-group">
                 <g:form controller="member" action="index" method="GET">
                     <div class="input-group" id="search-area">
-                        <g:select name="colName" class="form-control" from="[firstName: 'First Name', lastName: 'Last Name', email: 'Email', phoneNumber:'Phone Number']" value="${params?.colName}" optionKey="key" optionValue="value"/>
+                        <g:select name="colName" class="form-control" from="[firstName: 'First Name', lastName: 'Last Name',homeAddress: 'address', email: 'Email', phoneNumber:'Phone Number']" value="${params?.colName}" optionKey="key" optionValue="value"/>
                         <g:textField name="colValue" class="form-control" value="${params?.colValue}"/>
-                        <span class="input-group-btn">
+
                             <button class="btn btn-default" type="submit">Search</button>
-                        </span>
+
                     </div>
                 </g:form>
             </div>

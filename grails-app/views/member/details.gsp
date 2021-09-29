@@ -22,7 +22,7 @@
                     <th class="text-left"><g:message code="last.name"/></th><td class="text-left">: ${member.lastName}</td>
                 </tr>
                 <tr>
-                    <th class="text-left"><g:message code="adress"/></th><td class="text-left">: ${member.homeAddress}</td>
+                    <th class="text-left"><g:message code="address"/></th><td class="text-left">: ${member.homeAddress}</td>
                 </tr>
                 <tr>
                     <th class="text-left"><g:message code="phone"/></th><td class="text-left">: ${member.phoneNumber}</td>
