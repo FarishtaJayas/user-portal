@@ -15,6 +15,16 @@
     <UIHelper:renderErrorMessage fieldName="email" model="${member}" errorMessage="Your Email Address is not Valid / Already Exist in System"/>
 </div>
 
+<div class="form-group">
+    <label><g:message code="phone"/> *</label>
+    <g:textField name="phoneNumber" class="form-control" value="${member?.phoneNumber}" placeholder="Phone Number"/>
+</div>
+
+<div class="form-group">
+    <label><g:message code="birth.date"/> *</label>
+    <g:field type="date" name="birthDate" class="form-control" value="${member?.birthDate}" placeholder=" "/>
+</div>
+
 <g:if test="${!edit}">
     <div class="form-group">
         <label><g:message code="password"/> *</label>

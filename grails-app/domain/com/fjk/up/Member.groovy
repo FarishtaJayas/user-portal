@@ -1,11 +1,15 @@
 package com.fjk.up
 
+import sun.util.calendar.LocalGregorianCalendar
+
 class Member {
 
     Integer id
     String firstName
     String lastName
     String email
+    String phoneNumber
+    String birthDate
     String password
     String memberType = GlobalConfig.USER_TYPE.REGULAR_MEMBER
     String identityHash
@@ -21,6 +25,7 @@ class Member {
         lastName(nullable: true)
         identityHash(nullable: true)
         identityHashLastUpdate(nullable: true)
+
     }
 
     def beforeInsert (){
