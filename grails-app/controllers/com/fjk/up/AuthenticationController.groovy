@@ -42,4 +42,10 @@ class AuthenticationController {
             redirect(controller: "authentication", action: "registration")
         }
     }
+
+    def email_availability(member){
+        def g = grailsApplication.mainContext.getBean('org.codehaus.groovy.grails.plugins.web.taglib.ApplicationTagLib')
+
+
+    }
 }

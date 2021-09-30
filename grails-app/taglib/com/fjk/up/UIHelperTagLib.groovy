@@ -26,10 +26,13 @@ class UIHelperTagLib {
     def leftNavigation = { attrs, body ->
         List navigations = [
                 [controller: "dashboard", action: "index", name: "dashboard"],
+                [controller: "dashboard", action: "change_Password", name: "changePassword"],
         ]
 
         if(authenticationService.isAdministratorMember()){
-            navigations.add([controller: "member", action: "index", name: "member"])
+
+            navigations = [[controller: "member", action: "index", name: "member"]]
+
         }
 
         navigations.each { menu ->

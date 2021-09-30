@@ -9,9 +9,9 @@
 %{--Include Main Layout--}%
 <meta name="layout" content="main"/>
 
-<div class="card">
-    <div class="card-header">
-        <g:message code="member" args="['Update']"/>
+<div class="card mx-auto " style="max-width: 25rem">
+    <div class="card-header" style="font-size: 20px">
+        <g:message code="EditPage" args="['']"/>
     </div>
     <div class="card-body">
         <g:form controller="member" action="update">

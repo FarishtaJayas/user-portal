@@ -10,7 +10,7 @@
 
 <div class="card">
     <div class="card-header" style="font-size: 30px">
-        <g:message code="member" args="['List']"/>
+        <g:message code="member" args="[' ']"/>
 
         %{--Actions--}%
         <span class="float-right">

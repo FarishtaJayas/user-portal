@@ -10,12 +10,13 @@
 
 <div class="card text-center mx-auto">
     <div class="card-header" style="font-size: 40px"  >
-        <g:message code="member" args="['Profile']"/>
+        <g:message code="profilePage" args="['']"/>
     </div>
     <div class="card-body ">
         <g:if test="${member}">
             <table class="table mx-auto" style="max-width: 25rem" >
                 <tr>
+
                     <th class="text-left"><g:message code="first.name"/></th><td class="text-left">: ${member.firstName}</td>
                 </tr>
                 <tr>
