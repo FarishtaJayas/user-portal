@@ -8,9 +8,9 @@
 
 <meta name="layout" content="public"/>
 
-<div class="card  mx-auto" style="max-width: 20rem"  >
-    <div class="card-header" style="font-size: 30px">
-Registration Panel
+<div class="card">
+    <div class="card-header">
+        Member Registration
     </div>
     <div class="card-body">
         <g:form controller="authentication" action="doRegistration">
